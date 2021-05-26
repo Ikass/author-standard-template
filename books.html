@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books by Author</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar is-dark"role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item is-size-4 is-bold" href="/index.html">
+      Author Name
+    </a>
+    <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu" id="nav-links">
+    <div class="navbar-end">
+      <a class="navbar-item" href="books.html">
+        Books          
+      </a>
+      <a class="navbar-item" href="about.html">
+        About Me          
+      </a>
+      <a class="navbar-item" href="contact.html">
+        Contacts          
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero section -->
+
+<section class="hero is-dark is-large hero-books">
+  <div class="container">
+      <div class="hero-body">
+          <h1 class="title">
+              Author Books
+          </h1>
+          <p class="subtitle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quaerat!
+          </p>
+      </div>
+  </div>
+</section>
+
+
+<!-- Latest Book -->
+<section class="section is-medium has-background-white">
+  <div class="container is-max-desktop">
+    <header class="block">
+      <h1 class="title">Latest Book</h1>
+      <h2 class="subtitle">
+          A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+      </h2>
+    </header>
+    <article class="columns is-vcentered">
+      <figure class="column image has-shadow">
+          <!-- <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"> -->
+          <img src="images/transparent_sm-min.png" alt="Book cover">
+      </figure>
+      <div class="column is-centered">
+        <div class="content">
+          <h2 class="title">Latest book title</h2>
+          <h3 class="subtitle">Subtitle to go along the title</h3>
+          <p class="is-size-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+          </p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- Book Section -->
+<section class="section is-medium has-background-white-ter">
+  <div class="container is-max-desktop">
+    <header class="block">
+      <h1 class="title">Previous Bestseller Book</h1>
+      <h2 class="subtitle">
+          A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+      </h2>
+    </header>
+    <article class="columns is-vcentered">
+      <div class="column">
+        <div class="content">
+          <h2 class="title">Bestseller book title</h2>
+          <h3 class="subtitle">Subtitle to go along the title</h3>
+          <p class="is-size-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+          </p>
+        </div>
+      </div>
+      <figure class="column image">
+        <img src="images/transparent_sm-min.png" alt="Book cover">
+      </figure>
+    </article>
+  </div>
+</section>
+
+<!-- Book Section -->
+<section class="section is-medium has-background-white-bis">
+  <div class="container is-max-desktop">
+    <header class="block">
+      <h1 class="title">My Very First Book</h1>
+      <h2 class="subtitle">
+          A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+      </h2>
+    </header>
+    <article class="columns is-vcentered">
+      <figure class="column image has-shadow">
+        <img src="images/transparent_sm-min.png" alt="Book cover">
+      </figure>
+      <div class="column">
+        <div class="content">
+          <h2 class="title">First book title</h2>
+          <h3 class="subtitle">Subtitle to go along the title</h3>
+          <p class="is-size-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+          </p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer has-background-black hero-foot">
+  <div class="content has-text-centered has-text-light">
+    <p>
+      Footer text goes here. Can be menu links to other pages, direct links to books, newsletter form, or a short author bio section.
+    </p>
+   </div>
+</footer>
+
+<!-- mobile menu vanilla javascript -->
+<script src="js/burger.js"></script>
+</body>
+</html>

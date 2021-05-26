@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact the Author</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
+</head>
+<body class="hero is-fullheight">
+
+  <!-- Navigation -->
+  <nav class="navbar hero-head is-dark has-background-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item is-size-4 is-bold" href="/index.html">
+        Author Name
+      </a>
+      <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="nav-links">
+      <div class="navbar-end">
+        <a class="navbar-item" href="books.html">
+          Books          
+        </a>
+        <a class="navbar-item" href="about.html">
+          About Me          
+        </a>
+        <a class="navbar-item" href="contact.html">
+          Contacts          
+        </a>
+      </div>
+    </div>
+</nav>
+
+
+<!-- Contact section -->
+<section class="section hero-body has-background-light">
+  <div class="container is-max-desktop">
+    <p class="title">Contact me</p>
+    <p class="subtitle">Large subtitle</p>
+    
+    <div class="card">
+      <div class="card-content">
+
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="e.g Alex Smith">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+          </div>
+        </div>  
+        
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Textarea"></textarea>
+          </div>
+        </div>
+        
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Send Message</button>
+          </div>
+          <div class="control">
+            <button class="button is-link is-light">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer has-background-black hero-foot">
+  <div class="content has-text-centered has-text-light">
+    <p>
+      Footer text goes here. Can be menu links to other pages, direct links to books, newsletter form, or a short author bio section.
+    </p>
+   </div>
+</footer>
+
+<!-- mobile menu vanilla javascript -->
+<script src="js/burger.js"></script>
+</body>
+</html>

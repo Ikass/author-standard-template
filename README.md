@@ -1,2 +1,4 @@
-# author-standard-template
-Standard author website template
+# Author standard website template
+HTML and CSS. Bulma framework.
+
+[Live demo]( "")
